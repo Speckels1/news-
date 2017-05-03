@@ -1,0 +1,292 @@
+/* All CSS styles go here */
+
+@font-face {
+	font-family: porterbold;
+	src:url(../fonts/porterbold.ttf);
+}
+
+@font-face {
+	font-family: basic_custom;
+	src:url(../fonts/basictitlefont.ttf);
+}
+
+@font-face {
+	font-family: bodoni_xt_custom;
+	src:url(../fonts/bodonixt.ttf);
+}
+
+@font-face {
+	font-family: gotham;
+	src:url(../fonts/gotham.ttf);
+}
+
+
+.madison{
+	width: 100%;
+}
+a:hover {
+	opacity: 1;
+}
+
+.skinny_bar {
+	position: absolute;
+	left: 0px;
+	height: 15px;
+	background: red;
+
+}
+.red_bar {
+	position: absolute;
+	left: 0px;
+	height: 90px;
+	background: red;
+	display: none;
+}
+
+#red_bar_1 {
+	top: 195px;
+	width: 400px;
+}
+
+#red_bar_2 {
+	top: 290px;
+	width: 580px;
+}
+
+#red_bar_3 {
+	top: 385px;
+	width: 500px;
+}
+
+#red_bar_4 {
+	top: 480px;
+	width: 550px;
+}
+
+#red_bar_5 {
+	top: 576px;
+	width: 710px;
+}
+
+#red_bar_6 {
+	top: 673px ;
+	width: 610px;
+}
+
+#skinny_bar_1 {
+	top: 195px;
+	width: 1200px;
+}
+
+
+
+html,body {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	margin: 0px;
+}
+
+.header-img {
+	width: 100%;
+	height: 800px;
+	background: url(../images/wisconsinstate.png) center center;
+	-webkit-background-size: cover;
+}
+
+.subtitle { 
+	margin-top: -50px;
+	font-family: gotham;
+	font-size: 1.3em;
+	color: white;
+	line-height: 25pt;
+ }
+
+.contain {
+	width: 700px;
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	font-family: gotham;
+	color: grey;
+	line-height: 25pt;
+}
+
+#logo{
+	width: 200px;
+	position: relative;
+	
+}
+
+h1 {
+	font-family: gotham;
+	font-style: uppercase;
+	color: white;
+	padding-top: 50px;
+	padding-left: 50px;
+
+}
+h2 {
+	text-align: left;
+	font-family: gotham;
+	font-style: uppercase;
+	color: black;
+	padding-top: 50px;
+	font-size: 3em;
+	line-height: 37pt;
+
+}
+
+p {
+	font-family: gotham;
+	color: grey;
+	line-height: 25pt;
+
+}
+
+
+#sand{
+	width: 250px;
+	height: 184.8px;
+}
+
+
+#badgers{
+	width: 251.78px;
+	height: 149.78px;
+}
+
+#hockey{ 
+	width: 250px;
+	height: 173.75px;
+ }
+
+#sprinkler{
+	width: 750px;
+
+}
+
+.subtitle{ 
+	font-family: porterbold;
+ }
+
+.body-text{ 
+	left: 50%;
+	margin-left: -500px;
+ }
+
+/*#main {
+	width: 100%;
+	height: 1000px;
+	background:url(../images/wisconsinstate.png) center center;
+	-webkit-background-size: cover;
+	
+}*/
+
+
+#content {
+	font-family: gotham;
+	width: 100%;
+	height: 900px;
+	color: white;
+	background: red;
+	margin-top: 70px;
+}
+
+
+.mono {
+	text-decoration: none;
+	font-family: porterbold;
+	font-size: 6em;
+	margin-top: -100px;
+	width: 400px;
+	text-align: left;
+	color: white;
+	opacity: 0.5;
+	position: relative;
+	z-index: 5;
+
+}
+
+.article1{
+	text-decoration: none;
+	font-family: gotham;
+	font-size: 2em;
+	color: white;
+	line-height: 25pt;
+}
+
+.article2{
+	text-decoration: none;
+	font-family: gotham;
+	font-size: 2em;
+	color: white;
+	line-height: 25pt;
+}
+
+.article3{
+	text-decoration: none;
+	font-family: gotham;
+	font-size: 2em;
+	color: white;
+	line-height: 25pt;
+}
+
+.article4{
+	text-decoration: none;
+	font-family: gotham;
+	font-size: 2em;
+	color: white;
+	line-height: 25pt;
+}
+
+#headline_box {
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+#footer_box {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+}
+
+
+
+#content_sub {
+	width: 1200px;
+	height: 600px;
+	position: relative;
+	left: 50%;
+	margin-left: -600px;
+	margin-top: -200px;
+	
+}
+
+.column {
+	width: 21%;
+	height: 500px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 150px;
+	line-height: 15pt;
+}
+
+.column1{
+	width: 25%;
+	height: 300px;
+
+
+}
+.column:first-child {
+	margin-left: 0px;
+
+}
+
+.footertext{
+	width: 500px;
+	margin-left: 50px;
+}
